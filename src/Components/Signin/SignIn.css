@@ -11,11 +11,13 @@
     justify-content: center;
     /* background-color: #53565A; */
     background-color: rgb(190, 222, 236);
+
 }
 
 form{
     display: block;
     position: relative;
+    
 }
 
 form::after{
@@ -35,6 +37,7 @@ form .form-inner{
     background-color:rgb(248, 244, 244);
     padding: 100px;
     z-index: 2;
+    border-radius: 5px;
 
 }
 

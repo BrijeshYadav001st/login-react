@@ -94,7 +94,9 @@ function Dashboard() {
                 </ul>
             </div>
             <div className="fourth">
-                <textarea placeholder=" Rules..."></textarea>
+                <textarea id="rules "placeholder=" Rules...">
+    
+                </textarea>
             </div>
         </div>    
     </div>

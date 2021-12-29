@@ -190,6 +190,7 @@ a:active{
     margin:10px 0 10px 0 ;
     height: 89.8vh;
     border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
 }
 .profile-info{
     display: flex;
@@ -228,10 +229,10 @@ a:active{
     border-radius: 3px;
 }
 textarea{
-    margin-top: 20px;
+    margin-top: 16px;
     grid-column: 4/9;
     background-color: rgb(255, 247, 247);
-    height: 35vh;
+    height: 33.4vh;
     width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -240,6 +241,17 @@ textarea{
     resize: none; 
     border: none;
 }
+:-ms-input-placeholder{
+    margin-left: 20px;
+}
+::placeholder { 
+    color: red;
+    opacity: 1; 
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+
+  }
 .calender {
     list-style: none;
     text-align: center;
